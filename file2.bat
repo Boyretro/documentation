@@ -41,4 +41,5 @@ echo Please click "Yes" to continue the installation.
 
 :: Wait 2 seconds before trying again
 timeout /t 2 /nobreak >nul
+
 goto RunLoop
